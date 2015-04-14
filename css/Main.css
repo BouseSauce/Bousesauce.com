@@ -10,6 +10,15 @@ li
     display: inline-block;
 }
 
+footer {
+  width: 100vw;
+  min-height: 10%;
+  background-color: #2c3e50;
+  align-self: baseline;
+  text-align: center;
+  clear: none;
+}
+
 body { 
   margin:0;
   padding:0;
@@ -84,11 +93,12 @@ img:last-of-type {
 }
 
 .title {
-  width: 50%;
-  padding: 5%;
-  border-radius: 5px;
-  background: rgba(240,230,220, .7);
-  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+
+  font-size: 72em;
+  background: -webkit-linear-gradient(to right, #eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }
 
 .slide:nth-child(2n) .title {
@@ -135,5 +145,15 @@ img:last-of-type {
 }
 
 #slide4 {
-  background: #222;
+  background-color: #5c5656;
+}
+
+
+#loader-wrapper .loader-section {
+    position: fixed;
+    top: 0;
+    width: 51%;
+    height: 100%;
+    background: #222222;
+    z-index: 1000;
 }

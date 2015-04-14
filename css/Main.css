@@ -113,23 +113,23 @@ img:last-of-type {
 }
 
 #title {
-  background-image: url("guitar-670087_1920.jpg");
+  background-image: url("../Images/guitar.jpg");
    background-attachment: fixed;  
 }
 
 #slide1:before {
-  background-image: url("http://lorempixel.com/output/abstract-q-c-640-480-4.jpg");
+  background-image: url("../Images/mountains-691041_1280.jpg");
   transform: translateZ(-1px) scale(2);
   z-index:-1;
 }
 
 #slide2 {
-  background-image: url("woman-506120_1920.jpg");
+  background-image: url("../Images/woman.jpg");
   background-attachment: fixed;
 }
 
 #slide3:before {
-  background-image: url("http://lorempixel.com/output/abstract-q-c-640-480-5.jpg");
+  background-image: url("../Images/vegetation-691361_1280.jpg");
   transform: translateZ(-1px) scale(2);
   z-index:-1;
 }
